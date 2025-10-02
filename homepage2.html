@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>umm nord homepage thingy</title>
+  <style>
+    body {
+      margin:0; 
+      background:#4F6074; /* some random blu blu */
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      font-family:sans-serif; /* idk looks fine */
+    }
+    img {
+      width:150px; 
+      margin-bottom:25px; /* eh random value */
+    }
+    .searchbox {
+      display:flex;
+      align-items:center;
+      background:#374351; /* darker shade yaa */
+      border-radius:30px; 
+      padding:12px 15px; 
+      width:500px; 
+      max-width:90%; 
+      box-shadow:0 4px 6px rgba(0,0,0,0.3); /* lil shadowy */
+    }
+    .searchbox input {
+      border:none;
+      flex:1;
+      font-size:16px;
+      background:#374351; 
+      color:white; /* forgot this last time lol */
+      outline:none; 
+    }
+    .searchbox button {
+      background:#4F6074; 
+      border:none;
+      color:#fff;
+      padding:8px 12px;
+      border-radius:20px;
+      cursor:pointer; /* clicky */
+    }
+  </style>
+</head>
+<body>
+  <!-- KDE thing logo -->
+  <img src="https://kde.org/stuff/clipart/logo/kde-logo-blue-transparent-3000x3000.png">
+
+  <!-- Google search thing -->
+  <form action="https://www.google.com/search" method="get" class="searchbox">
+    <input type="text" name="q" placeholder="just search something...">
+    <button type="submit">➤</button>
+  </form>
+
+  <!-- lol made for Falkon bc why not -->
+</body>
+</html>
